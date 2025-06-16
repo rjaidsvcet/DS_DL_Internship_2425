@@ -1,1 +1,1 @@
-# DS_DL_Internship_2425
+# Data Science & Deep Learning Internship - A.Y. 2024-25

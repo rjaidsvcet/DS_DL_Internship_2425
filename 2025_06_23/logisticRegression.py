@@ -48,13 +48,13 @@ if __name__ == '__main__':
     sigmoid = model.predict (X)
     print (f'Sigmoid : {sigmoid}')
 
-    result = list ()
+    result = np.array ([], dtype=int)
     for _ in range (len (sigmoid)):
         if sigmoid[_] >= 0.5:
             y_pred = 1
         else:
             y_pred = 0
-        result.append (y_pred)
+        result = np.append (result, y_pred)
 
     print (f'True Label : {y}')
     print (f'Pred Label : {result}')
